@@ -1,6 +1,6 @@
-## 2a_Stop_and_Wait_Protocol
-## NAME : DHARANISH MS
-## REGISTER NO : 212223240027
+# 2a_Stop_and_Wait_Protocol
+# NAME : DHARANISH MS
+# REGISTER NO : 212223240027
 
 ## AIM 
 To write a python program to perform stop and wait protocol
@@ -12,7 +12,7 @@ To write a python program to perform stop and wait protocol
 5. If your frames reach the server it will send ACK signal to client
 6. Stop the Program
 ## PROGRAM 
-Client :
+### Client :
 ```
 import socket
 s=socket.socket()
@@ -31,7 +31,7 @@ while True:
       break
 ```
 
-Server :
+### Server :
 ```
 import socket
 s=socket.socket()
@@ -41,11 +41,11 @@ while True:
      s.send("Acknowledgement Recived".encode())
 ```
 ## OUTPUT
-Client :
+### Client :
 ![client 2a](https://github.com/MSDharanish-23011819/2a_Stop_and_Wait_Protocol/assets/147139454/a68eddd4-a637-4809-bf72-452c3bdd49dd)
 
 
-Server :
+### Server :
 ![server 2a](https://github.com/MSDharanish-23011819/2a_Stop_and_Wait_Protocol/assets/147139454/c10878c1-94e0-4199-91e2-fe0a104d87ba)
 
 
